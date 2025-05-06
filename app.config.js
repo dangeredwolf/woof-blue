@@ -47,7 +47,7 @@ module.exports = function (_config) {
       },
       icon: './assets/app-icons/ios_icon_default_light.png',
       userInterfaceStyle: 'automatic',
-      primaryColor: '#4b9b6c',
+      primaryColor: '#4b46f9',
       ios: {
         supportsTablet: false,
         bundleIdentifier: 'social.deer',
@@ -151,7 +151,7 @@ module.exports = function (_config) {
           foregroundImage: './assets/icon-android-foreground.png',
           monochromeImage: './assets/icon-android-foreground.png',
           backgroundImage: './assets/icon-android-background.png',
-          backgroundColor: '#4b9b6c',
+          backgroundColor: '#4b46f9',
         },
         googleServicesFile: './google-services.json',
         package: 'social.deer',
@@ -222,7 +222,7 @@ module.exports = function (_config) {
           'expo-notifications',
           {
             icon: './assets/icon-android-notification.png',
-            color: '#4b9b6c',
+            color: '#4b46f9',
             sounds: PLATFORM === 'ios' ? ['assets/dm.aiff'] : ['assets/dm.mp3'],
           },
         ],
@@ -276,7 +276,7 @@ module.exports = function (_config) {
               },
             },
             android: {
-              backgroundColor: '#4b9b6c',
+              backgroundColor: '#4b46f9',
               image: './assets/splash-android-icon.png',
               imageWidth: 150,
               dark: {
