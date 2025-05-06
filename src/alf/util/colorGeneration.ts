@@ -2,7 +2,7 @@ export const BLUE_HUE = 211
 export const RED_HUE = 346
 export const GREEN_HUE = 152
 
-export const BLUEISH_HUE = 227
+export const BLUEISH_HUE = 225
 
 /**
  * Smooth progression of lightness "stops" for generating HSL colors.
