@@ -106,14 +106,12 @@ export function DesktopRightNav({routeName}: {routeName: string}) {
           </>
         )}
         <InlineLinkText
-          to="https://deer.social/about/privacy"
+          to="https://woof.blue/about/privacy"
           label={_(msg`Privacy`)}>
           {_(msg`Privacy`)}
         </InlineLinkText>
         {' • '}
-        <InlineLinkText
-          to="https://deer.social/about/tos"
-          label={_(msg`Terms`)}>
+        <InlineLinkText to="https://woof.blue/about/tos" label={_(msg`Terms`)}>
           {_(msg`Terms`)}
         </InlineLinkText>
         {' • '}

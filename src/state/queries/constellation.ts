@@ -22,7 +22,7 @@ type Collection =
 
 const headers = new Headers({
   Accept: 'application/json',
-  'User-Agent': 'deer.social (contact @aviva.gay)',
+  'User-Agent': 'Mozilla/5.0 woof.blue (like Twitterbot; +https://woof.blue)',
 })
 
 const makeReqUrl = (

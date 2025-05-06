@@ -166,7 +166,7 @@ export function StepInfo({
           <View style={[a.gap_xl]}>
             <Text style={[a.gap_md, a.leading_normal]}>
               <Trans>
-                deer.social is part of the{' '}
+                woof.blue is part of the{' '}
                 {
                   <InlineLinkText
                     label={_(msg`ATmosphere`)}
@@ -217,7 +217,7 @@ export function StepInfo({
                   <Trans>bsky.app</Trans>
                 </InlineLinkText>
               }{' '}
-              first, then return to deer.social and log in with the account you
+              first, then return to woof.blue and log in with the account you
               created.
             </Trans>
           </Text>

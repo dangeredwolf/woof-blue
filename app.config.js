@@ -20,7 +20,7 @@ module.exports = function (_config) {
   const IS_DEV = !IS_TESTFLIGHT || !IS_PRODUCTION
 
   const ASSOCIATED_DOMAINS = [
-    'applinks:deer.social',
+    'applinks:woof.blue',
     // When testing local services, enter an ngrok (et al) domain here. It must use a standard HTTP/HTTPS port.
     ...(IS_DEV || IS_TESTFLIGHT ? [] : []),
   ]
@@ -50,7 +50,7 @@ module.exports = function (_config) {
       primaryColor: '#4b46f9',
       ios: {
         supportsTablet: false,
-        bundleIdentifier: 'social.deer',
+        bundleIdentifier: 'blue.woof',
         config: {
           usesNonExemptEncryption: false,
         },
@@ -64,7 +64,7 @@ module.exports = function (_config) {
             'Used to save images to your library.',
           NSPhotoLibraryUsageDescription:
             'Used for profile pictures, posts, and other kinds of content',
-          CFBundleSpokenName: 'deer.social',
+          CFBundleSpokenName: 'blue.woof',
           CFBundleLocalizations: [
             'en',
             'an',
@@ -154,7 +154,7 @@ module.exports = function (_config) {
           backgroundColor: '#4b46f9',
         },
         googleServicesFile: './google-services.json',
-        package: 'social.deer',
+        package: 'blue.woof',
         intentFilters: [
           {
             action: 'VIEW',
@@ -162,7 +162,7 @@ module.exports = function (_config) {
             data: [
               {
                 scheme: 'https',
-                host: 'deer.social',
+                host: 'woof.blue',
               },
               IS_DEV && {
                 scheme: 'http',
