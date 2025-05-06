@@ -1,10 +1,10 @@
 import {useMemo} from 'react'
 import {
-  DimensionValue,
-  StyleProp,
+  type DimensionValue,
+  type StyleProp,
   StyleSheet,
   View,
-  ViewStyle,
+  type ViewStyle,
 } from 'react-native'
 
 import {usePalette} from '#/lib/hooks/usePalette'
@@ -43,15 +43,10 @@ export function LoadingPlaceholder({
   )
 }
 
-export function PostLoadingPlaceholder({
-  style,
-}: {
-  style?: StyleProp<ViewStyle>
-}) {
+export function PostLoadingPlaceholder({}: {style?: StyleProp<ViewStyle>}) {
   const t = useTheme_NEW()
-  const pal = usePalette('default')
   return (
-    <View style={[styles.post, pal.view, style]}>
+    <View style={[styles.post]}>
       <LoadingPlaceholder
         width={42}
         height={42}
