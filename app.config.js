@@ -37,9 +37,9 @@ module.exports = function (_config) {
   return {
     expo: {
       version: VERSION,
-      name: 'deer.social',
-      slug: 'deer',
-      scheme: ['bluesky', 'deer'],
+      name: 'woof.blue',
+      slug: 'woofsky',
+      scheme: ['bluesky', 'woof'],
       // owner: 'blueskysocial',
       // owner: 'neema.brown',
       runtimeVersion: {
@@ -359,10 +359,10 @@ module.exports = function (_config) {
           'react-native-vision-camera',
           {
             enableLocation: false,
-            cameraPermissionText: 'deer.social needs access to your camera.',
+            cameraPermissionText: 'woof.blue needs access to your camera.',
             enableMicrophonePermission: true,
             microphonePermissionText:
-              'deer.social needs access to your microphone.',
+              'woof.blue needs access to your microphone.',
           },
         ],
       ].filter(Boolean),
@@ -371,30 +371,30 @@ module.exports = function (_config) {
           build: {
             experimental: {
               ios: {
-                // appExtensions: [
-                //   {
-                //     targetName: 'Share-with-Bluesky',
-                //     bundleIdentifier: 'xyz.blueskyweb.app.Share-with-Bluesky',
-                //     entitlements: {
-                //       'com.apple.security.application-groups': [
-                //         'group.app.bsky',
-                //       ],
-                //     },
-                //   },
-                //   {
-                //     targetName: 'BlueskyNSE',
-                //     bundleIdentifier: 'xyz.blueskyweb.app.BlueskyNSE',
-                //     entitlements: {
-                //       'com.apple.security.application-groups': [
-                //         'group.app.bsky',
-                //       ],
-                //     },
-                //   },
-                //   {
-                //     targetName: 'BlueskyClip',
-                //     bundleIdentifier: 'xyz.blueskyweb.app.AppClip',
-                //   },
-                // ],
+                appExtensions: [
+                  {
+                    targetName: 'Share-with-Bluesky',
+                    bundleIdentifier: 'blue.woof.app.Share-with-Bluesky',
+                    entitlements: {
+                      'com.apple.security.application-groups': [
+                        'group.app.bsky',
+                      ],
+                    },
+                  },
+                  {
+                    targetName: 'BlueskyNSE',
+                    bundleIdentifier: 'blue.woof.app.BlueskyNSE',
+                    entitlements: {
+                      'com.apple.security.application-groups': [
+                        'group.app.bsky',
+                      ],
+                    },
+                  },
+                  {
+                    targetName: 'BlueskyClip',
+                    bundleIdentifier: 'blue.woof.app.AppClip',
+                  },
+                ],
               },
             },
           },
