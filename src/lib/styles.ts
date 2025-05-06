@@ -22,14 +22,14 @@ export const colors = {
   gray7: '#26272D',
   gray8: '#141417',
 
-  blue0: '#d5e8d9',
-  blue1: '#b8d6be',
-  blue2: '#95bd9f',
-  blue3: '#729f7c',
-  blue4: '#528157',
-  blue5: '#3a6141',
-  blue6: '#25422c',
-  blue7: '#14291a',
+  blue0: '#c2cefa',
+  blue1: '#97acf7',
+  blue2: '#5f7ff2',
+  blue3: '#2f59ee',
+  blue4: '#1038c6',
+  blue5: '#0b288e',
+  blue6: '#081a5e',
+  blue7: '#051039',
 
   red1: '#ffe6eb',
   red2: '#fba2b2',
@@ -58,7 +58,7 @@ export const colors = {
   green5: '#082b03',
 
   unreadNotifBg: '#ebf6ff',
-  brandBlue: '#0066FF',
+  brandBlue: '#5f7ff2',
   like: '#ec4899',
 }
 
